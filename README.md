@@ -1,34 +1,52 @@
-# Text-Classification
-Developed a spam detection system using BERT to classify messages as spam or ham with high accuracy using NLP techniques.
+# 📌 Mail Spam Detection using BERT
 
-#  Description
-This project develops a text classification system to detect whether a Gmail message as Spam or Not Spam (Ham) using Natural Language Processing techniques. It uses BERT (Bidirectional Encoder Representations from Transformers) to understand the context of messages and improve classification accuracy.
+## 📖 Description
+This project builds a text classification system to detect whether a message is Spam or Not Spam (Ham) using Natural Language Processing (NLP) techniques. It uses BERT (Bidirectional Encoder Representations from Transformers), a transformer-based deep learning model, to understand the context of text and improve classification accuracy.
 
-# Objective
-Automatically detect spam emails
-Improve email filtering system
-Reduce unwanted or harmful messages
+The model is fine-tuned on a labeled dataset of messages and can accurately classify new messages as spam or legitimate.
 
-# Technology Used
-Python
-Pandas, NumPy
-Scikit-learn
-TensorFlow / PyTorch
-BERT
+## 🎯 Objective
+- Automatically detect spam messages
+- Improve classification accuracy using deep learning
+- Reduce unwanted and harmful messages
 
-# Feautures
-Classifies Gmail messages into Spam or Ham
-Handles multiple input texts
-High accuracy using deep learning
-Can be extended for real-time email filtering
+## 🛠️ Technologies Used
+- Python
+- Pandas, NumPy
+- Scikit-learn
+- TensorFlow / PyTorch
+- BERT (Transformers)
 
- # Usage
-Run the notebook or Python script
-Enter Gmail message text
-Output: Spam / Not Spam
+## ⚙️ Features
+- Classifies messages as Spam or Not Spam
+- Context-aware prediction using BERT
+- Handles multiple input messages
+- High accuracy compared to traditional models
 
-#  Result
-Achieved high accuracy in spam detection
+## 📂 Project Structure
+spam-detection-bert/
+├── data/
+├── model/
+├── notebook.ipynb
+├── requirements.txt
+├── README.md
 
-# Conclusion
-The project successfully detects spam emails using NLP and BERT, providing better performance than traditional machine learning models.
+## 🚀 Installation
+pip install -r requirements.txt
+
+## ▶️ Usage
+- Run the notebook or Python script
+- Enter message text
+- Output: Spam / Not Spam
+
+## 📊 Results
+- Achieved high accuracy in spam detection
+- Evaluated using Accuracy, Precision, Recall, and F1-score
+
+## 📌 Conclusion
+The project successfully detects spam messages using BERT and NLP techniques, providing better performance than traditional machine learning models.
+
+## 🔮 Future Work
+- Deploy as a web application
+- Integrate with email systems
+- Improve model with more data
